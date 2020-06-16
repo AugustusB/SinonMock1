@@ -132,7 +132,7 @@ QUnit.test('fadeout asynchronous timing test', function(assert) {
 
     // Act and Assert
     mySUT2.fadeOutDiv(500, function() {
-        assert.ok(!$("#div1").is(":visible"), "div1 is not visible - faded out!");
+        assert.ok(!$('#div1').is(":visible"), "div1 is not visible - faded out!");
         done();
     });
 });
